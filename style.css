@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: linear-gradient(to right, #ffffff, #0000ff);
+    background-image: linear-gradient(to right, #fff, #00f);
     background-attachment: fixed;
 }
 
@@ -16,18 +16,17 @@ h1{
 
 div.quadrado{
     display: inline-block;
-    padding: auto;
-    border: 2px 2px solid black;
-    border-radius: solid 5px;
-    margin: auto;  
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 10px 25px;
+    width: 300px;
+    height: 300px;
 }
 
 div#q1{
-    background-image: url(images/spider-man-2880x1800-playstation-4-2018-5k-15051.jpg);
-    background-color: black;   
+    background-image: linear-gradient(to bottom, yellow, red);  
 }
 
 div#q2{
-    background-image: url(´images/O-Espetacular-Homem-Aranha-Wallpaper.jpg´);
-    background-color: aqua;
+    background-image: url(images/O-Espetacular-Homem-Aranha-Wallpaper.jpg);
 }
