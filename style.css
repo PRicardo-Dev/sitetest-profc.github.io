@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: linear-gradient(to right, #fff, #00f);
+    background-image: linear-gradient(to right, #fff, #0189ff);
     background-attachment: fixed;
 }
 
@@ -29,4 +29,62 @@ div#q1{
 
 div#q2{
     background-image: url(images/O-Espetacular-Homem-Aranha-Wallpaper.jpg);
+}
+
+header{
+   text-align: center;
+}
+
+header > h1{
+    text-align: center; 
+    color: blueviolet;
+}
+
+header > p{
+    color: coral;
+}
+
+header > h2{
+    color: rgb(174, 14, 189);
+}
+
+main{
+    text-align: center;
+}
+
+main > h1{
+    text-align: center;
+    color: forestgreen;
+}
+
+#h1{
+    color: crimson;
+}
+
+#h2{
+    color: darkmagenta;
+}
+
+#h3{
+    color: bisque;
+}
+
+#h4{
+    color: hotpink;
+}
+
+aside{
+    text-align: center;
+}
+
+aside > h1{
+    text-align: center;
+    color: tomato;
+}
+
+footer{
+    border: 3px solid black;
+    padding: 0px;
+    text-align: center;
+    color: black;
 }
