@@ -8,6 +8,7 @@
 body{
     background-image: linear-gradient(to right, #fff, #0189ff);
     background-attachment: fixed;
+    height: 100vh;
 }
 
 h1{
@@ -83,7 +84,7 @@ aside > h1{
 }
 
 footer{
-    border: 3px solid black;
+    border: 1px solid black;
     padding: 0px;
     text-align: center;
     color: black;
