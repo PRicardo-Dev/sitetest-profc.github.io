@@ -9,21 +9,21 @@
         table{
             border-collapse: collapse;
             margin-left: 25px;
-            border: 2px solid black;
+            border: 1px solid black;
         }
 
         td{
             border: 1px solid black;
             border-collapse: collapse;
             text-align: center;
-            padding: 10px;
+            padding: 8px;
         }
 
         th{
             border: 1px solid black;
             border-collapse: collapse;
             text-align: center;
-            padding: 10px;
+            padding: 8px;
         }
 
         th.a1, tr.a3{
@@ -96,14 +96,18 @@
     </table>
     <br>
     <table>
+        <thead>
         <tr>
-            <th class="a1" rowspan="2">Área</th>
-            <th class="a1" rowspan="2">Disciplinas</th>
-            <th class="a1">Notas</th>
-            <td class="a1">Nota 1</td>
-            <td class="a1">Nota 2</td>
-            <th class="a1" rowspan="2">Média</th>
+            <th class="a1" scope="col" rowspan="2">Área</th>
+            <th class="a1" scope="col" rowspan="2">Disciplinas</th>
+            <th class="a1" scope="col" colspan="2">Notas</th>
+            <th class="a1" scope="col" rowspan="2">Média</th>
         </tr>
+        <tr>
+            <th class="a1" scope="col">Nota 1</th>
+            <th class="a1" scope="col">Nota 2</th>
+        </tr>
+        </thead>
         <tr>
         <th rowspan="4" scope="rowgroup" class="a2">Exatas</th>
         <td>Matemática</td>
