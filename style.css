@@ -78,6 +78,11 @@ aside{
     text-align: center;
 }
 
+iframe{
+    margin: auto;
+    display: block;
+}
+
 aside > h1{
     text-align: center;
     color: tomato;
