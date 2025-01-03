@@ -89,8 +89,13 @@ aside > h1{
 }
 
 footer{
+    background-color: black;
     border: 1px solid black;
     padding: 0px;
     text-align: center;
     color: black;
+}
+
+footer > p{
+    color: #ffffff;
 }
