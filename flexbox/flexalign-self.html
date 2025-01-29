@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox align-self</title>
+    <style>
+        div.conteiner{
+            background-color: lightsalmon;
+
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: flex-start;
+            height: 800px;
+        }
+
+        div.item {
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            flex-basis: 250px;
+        }
+
+        div#i1{
+            order: 1;
+            align-self: auto;
+        }
+
+        div#i2{
+            order: 2;
+            align-self: center;
+            flex-basis: 30px;
+        }
+
+        div#i3{
+            order: 3;
+            align-self: flex-start;
+        }
+
+        div#i4{
+            order: 4;
+            align-self: flex-end;
+        }
+
+        div#i5{
+            order: 5;
+            align-self: stretch;
+        }
+
+        div#i6{
+            order: 6;
+            align-self: stretch;
+        }
+
+        div#i7{
+            order: 7;
+            align-self: self-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="i1">Exemplo de bloco: A</div>
+        <div class="item" id="i2">Exemplo de bloco: B</div>
+        <div class="item" id="i3">Exemplo de bloco: C</div>
+        <div class="item" id="i4">Exemplo de bloco: D</div>
+        <div class="item" id="i5">Exemplo de bloco: E</div>
+        <div class="item" id="i6">Exemplo de bloco: F</div>
+        <div class="item" id="i7">Exemplo de bloco: G</div>
+    </div>
+</body>
+</html>
