@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
+@media screen and (min-width:769px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > nav > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 769px;
+    }
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -27,16 +46,17 @@ header {
 header > h1 {
     border: 1px dotted black;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 404);
 }
 
-header > nav {
+header > menu > ul > nav {
     border: 1px dotted black;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
 }
 
-header > nav > a {
+header > menu > ul > nav > li > a {
     background-color: black;
     color: white;
     padding: 10px;
@@ -46,7 +66,7 @@ header > nav > a {
     text-align: center;
 }
 
-header > nav > a:hover {
+header > menu > ul > nav > li > a:hover {
     background-color: white;
     color: black;
     transition: background-color .5s;

@@ -23,15 +23,6 @@ header > h1#new {
     color: black;
 }
 
-header > h1#now {
-    
-}
-
-header > ul {
-    display: flex;
-    flex-flow: row wrap;
-}
-
 h2{
     border: 3px solid black;
     padding: 10px;
@@ -93,17 +84,14 @@ main{
     background-color: rgb(27, 99, 192);
     border: 4px solid black;
     text-align: center;
-   /* display: flex;
-    flex-flow: row wrap; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 main > h1{
     text-align: center;
     color: forestgreen;
-}
-
-main > video {
-    flex-shrink: 1;
 }
 
 #h1{
