@@ -94,7 +94,13 @@ main > h1{
     color: forestgreen;
 }
 
-main > video {
+section{
+    display: flex;
+}
+
+main > section > video {
+    align-self: center;
+    flex-shrink: 1 1 300px;
     width: 400px;
 }
 

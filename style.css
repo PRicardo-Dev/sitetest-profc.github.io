@@ -102,7 +102,7 @@ main > h1{
     color: forestgreen;
 }
 
-main > video {
+main > section > video {
     flex-shrink: 1;
 }
 
