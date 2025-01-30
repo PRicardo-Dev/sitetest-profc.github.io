@@ -97,7 +97,12 @@ main > h1{
 div#video {
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
     justify-content: center;
+}
+
+video{
+    align-self: center;
 }
 
 #h1{
