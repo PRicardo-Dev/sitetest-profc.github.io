@@ -94,14 +94,10 @@ main > h1{
     color: forestgreen;
 }
 
-section{
+div#video {
     display: flex;
-}
-
-main > section > video {
-    align-self: center;
-    flex-shrink: 1 1 300px;
-    width: 400px;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 
 #h1{
