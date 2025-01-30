@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@media screen and (max-width:769px){
+    
 *{ 
     font-family: Arial, Helvetica, sans-serif;
     /*height: 100%;*/
@@ -102,6 +104,7 @@ div#video {
 }
 
 video{
+    display: block;
     align-self: center;
     flex: 1 1 300px;
 }
@@ -148,4 +151,6 @@ footer{
 
 footer > p{
     color: #ffffff;
+}
+
 }
