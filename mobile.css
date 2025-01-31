@@ -11,7 +11,6 @@ body{
     background-image: linear-gradient(to right, #fff, #0189ff);
     background-attachment: fixed;
     height: 100vh;
-    display: flex;
 }
 
 header, main, aside{
@@ -156,10 +155,9 @@ aside > h1{
 
 footer{ 
     background-color: lightgray;
-    border: 4px solid black;
+    border: 4px solid lightsalmon;
     padding: 0px;
     text-align: center;
-    flex: 1 1 100px;
 }
 
 footer > p{
