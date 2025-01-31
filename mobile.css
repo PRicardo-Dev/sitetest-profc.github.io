@@ -97,18 +97,16 @@ main{
 }
 
 main > picture {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 main > audio {
-    
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 main > video {
-    margin-left: 20px;
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 10px;
 }
 
 main > h1{
