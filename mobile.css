@@ -154,8 +154,7 @@ aside > h1{
 }
 
 footer{
-    width: 70vw;
-    min-width: 456px; 
+    min-width: 360px; 
     background-color: black;
     border: 1px solid black;
     padding: 0px;
