@@ -14,8 +14,9 @@ body{
 }
 
 header, main, aside, footer{
-    width: 80vw;
+    width: 90vw;
     margin-left: 10px;
+    box-sizing: border-box;
 }
 
 header{
@@ -92,7 +93,8 @@ main{
     border: 4px solid black;
     text-align: center;
     display: flex;
-    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 main > picture {
@@ -104,9 +106,11 @@ main > audio {
 }
 
 main > video {
-    margin-left: 10px;
+    /*  margin-left: 10px;
     width: 150px;
-    height: 150px;
+    height: 150px;*/
+        max-width: 100%;
+        height: auto;
 }
 
 main > h1{
