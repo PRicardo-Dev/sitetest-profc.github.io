@@ -159,6 +159,7 @@ footer{
     padding: 0px;
     text-align: center;
     color: black;
+    display: flex;
 }
 
 footer > p{
