@@ -14,8 +14,7 @@ body{
 }
 
 header, main, aside, footer{
-    margin-left: 5px;
-    margin-right: 2px;
+    margin-left: 10px;
 }
 
 header{
@@ -106,8 +105,8 @@ main > audio {
 
 main > video {
     margin-left: 20px;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 
 main > h1{
