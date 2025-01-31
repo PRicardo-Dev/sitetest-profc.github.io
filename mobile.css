@@ -108,9 +108,11 @@ main > audio {
 main > video {
     /*  margin-left: 10px;
     width: 150px;
-    height: 150px;*/
-        max-width: 300px;
-        height: auto;
+    height: 150px;*/ 
+    margin: 10px;
+    max-width: 300px;
+    min-height: 200px;
+    height: auto;
 }
 
 main > h1{
