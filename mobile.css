@@ -14,6 +14,7 @@ body{
 }
 
 header{
+    width: 100vw;
     background-color: rgba(100, 243, 195, 0.89);
     border: 4px solid black;
     display: flex;
@@ -83,6 +84,7 @@ header > h2{
 }
 
 main{
+    width: 100vw;
     background-color: rgb(27, 99, 192);
     border: 4px solid black;
     text-align: center;
@@ -96,15 +98,13 @@ main > h1{
     color: forestgreen;
 }
 
-div#video {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
+main > div#video {
+    border: 4px solid black;
+    border-radius: 4px;
+    background-color: yellow;
 }
 
 video{
-    display: block;
     align-self: center;
     flex: 1 1 300px;
 }
@@ -126,6 +126,7 @@ video{
 }
 
 aside{
+    width: 100vw;
     background-color: red;
     border: 4px solid black;
     text-align: center;
@@ -142,6 +143,7 @@ aside > h1{
 }
 
 footer{
+    width: 100vw;
     background-color: black;
     border: 1px solid black;
     padding: 0px;
