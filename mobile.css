@@ -13,7 +13,7 @@ body{
     height: 100vh;
 }
 
-header, main, aside, footer{
+header, main, aside{
     width: 90vw;
     margin-left: 10px;
 }
@@ -154,7 +154,8 @@ aside > h1{
 }
 
 footer{
-    min-width: 456px;
+    width: 70vw;
+    min-width: 456px; 
     background-color: black;
     border: 1px solid black;
     padding: 0px;
