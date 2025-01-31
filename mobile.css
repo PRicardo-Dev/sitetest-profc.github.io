@@ -8,13 +8,13 @@
 }
 
 body{
-    height: 100vh;
     background-image: linear-gradient(to right, #fff, #0189ff);
     background-attachment: fixed;
+    height: 100vh;
 }
 
 header, main, aside, footer{
-    width: 60vw;
+    width: 80vw;
     margin-left: 10px;
 }
 
@@ -104,9 +104,9 @@ main > audio {
 }
 
 main > video {
-    margin-left: 20px;
-    width: 200px;
-    height: 200px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
 }
 
 main > h1{
