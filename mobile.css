@@ -109,7 +109,7 @@ main > video {
     /*  margin-left: 10px;
     width: 150px;
     height: 150px;*/
-        max-width: 100%;
+        max-width: 300px
         height: auto;
 }
 
