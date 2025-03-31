@@ -25,10 +25,6 @@ header > h1#new {
     color: black;
 }
 
-header > h1#now {
-    
-}
-
 header > ul {
     display: flex;
     flex-flow: row wrap;
